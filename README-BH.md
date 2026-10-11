@@ -3,7 +3,7 @@
 Дополнение к работе [MEML 9.6](https://github.com/kolbasa1972/meml-V9.6) —
 связь аксиона с физикой чёрных дыр.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+**DOI основной работы:** [10.5281/zenodo.23289871](https://doi.org/10.5281/zenodo.23289871)
 
 ---
 
