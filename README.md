@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 
-This repository contains the official standalone Python verification framework for the **MEML 9.6** axion dark matter model. The theoretical framework originates from a **6D Quantum Field Theory (QFT)** compactified on an \(M_4 \times T^2/\mathbb{Z}_3\) orbifold. 
+This repository contains the official standalone Python verification framework for the **MEML 9.6** axion dark matter model. The theoretical framework originates from a **6D Quantum Field Theory (QFT)** compactified on an $(M_4 \times T^2/\mathbb{Z}_3)$ orbifold. 
 
 The framework consists of **two specialized core scripts** that test both cosmological alignment and astrophysical boundaries.
 
