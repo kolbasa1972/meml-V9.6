@@ -1,10 +1,49 @@
-# MEML 9.6 — Аксионная тёмная материя из 6D КТП
+
+---
+# MEML v9.6 — Precision Verification of 6D QFT Axion Dark Matter & Black Hole Constraints
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23289871.svg)](https://doi.org/10.5281/zenodo.23289871)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 
----
+This repository contains the official standalone Python verification framework for the **MEML 9.6** axion dark matter model. The theoretical framework originates from a **6D Quantum Field Theory (QFT)** compactified on an \(M_4 \times T^2/\mathbb{Z}_3\) orbifold. 
+
+The framework consists of **two specialized core scripts** that test both cosmological alignment and astrophysical boundaries.
+
+## 🪐 Repository Structure & Scripts
+
+*   **`MEML9.6.py` (Main Cosmological Framework):** Solves the modular integrals, compactification geometry, and cosmological alignment equations. It dynamically computes the relic dark matter density with the Lyth-Turner anharmonic correction.
+*   **`MEML9.6_BH.py` (Black Hole & Superradiance Constraints):** Evaluates the model against astrophysical boundaries. It tests the axion mass against primordial black hole (PBH) evaporation rates and gravitational atom signatures (superradiance instabilities) in spinning black holes.
+
+## 🌌 Physical Overview & Key Results
+
+The dual-script architecture yields highly precise, verifiable predictions matching both cosmological and astrophysical observational boundaries.
+
+*   **Precise Axion Mass (\(m_a\)):** ≈ 5.63 μeV
+*   **Predicted Signal Frequency (\(\nu_a\)):** ≈ 1.36 GHz — *Provides a definitive target strictly within the ADMX detector operational window.*
+*   **Relic Dark Matter Density (\(\Omega_a h^2\)):** ≈ 0.120034 — *Matches the central Planck 2018 observational constraints within an ultra-strict 0.028% deviation.*
+*   **Black Hole Superradiance Bounds:** The 5.63 μeV mass spectrum successfully evades current stellar-mass black hole exclusion zones while providing a distinct signature for future gravitational wave detectors.
+*   **Tree-level WIMP Bound:** \(\sigma_{SI} = 0\), consistently evading XENONnT and LZ direct detection limits.
+
+## 📐 Model Scales and Parameters
+
+The scripts dynamically test the self-consistency of scale separation:
+*   **Compactification Scale (\(m_{KK}\)):** 10¹⁵ GeV
+*   **Bulk Gauge Coupling (\(\alpha_G\)):** 0.2114
+*   **Orbifold Radius (\(R_{T^2}\)):** ≈ 1.96 × 10⁻³¹ m
+*   **Scalar/Bulk Suppression (ε):** 2.8628 × 10⁻⁴
+*   **Decay Constant (\(f_a\)):** Successfully resolved to 10¹² GeV using bulk geometry mappings.
+*   **Anharmonic Alignment:** Employs the Lyth-Turner correction for an initial misalignment angle \(\theta_i = 0.9483\).
+
+## 📊 Verification Target Visual
+
+The framework models the finely-tuned alignment required to satisfy relic density constraints. The green band represents the 3σ Planck 2018 interval:
+
+# MEML 9.6 — Аксионная тёмная материя из 6D КТП
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23289871.svg)](https://doi.org/10.5281/zenodo.23289871)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 
 ## О модели
 
